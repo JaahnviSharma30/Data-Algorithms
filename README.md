@@ -702,25 +702,3 @@ function ComputeLPSArray(pattern):
 
 **Time Complexity**: O(n+m)
 **Space Complexity**: O(m)
-
-## NP-Completeness
-
-NP-complete problems are a class of decision problems for which:
-1. Solutions can be verified in polynomial time (NP)
-2. Every problem in NP can be reduced to it in polynomial time (NP-hard)
-
-Examples of NP-complete problems:
-- Boolean Satisfiability Problem (SAT)
-- Traveling Salesman Problem (decision version)
-- Vertex Cover
-- Subset Sum
-- Graph Coloring
-- Hamiltonian Path/Cycle
-- Clique Problem
-
-**Approaches to NP-complete problems**:
-1. Exact algorithms that may take exponential time
-2. Approximation algorithms
-3. Heuristic-based approaches
-4. Parameterized algorithms
-5. Randomized algorithms
